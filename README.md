@@ -54,7 +54,7 @@ Get-AzResourceGroup | Format-Table
 
 ![image](https://user-images.githubusercontent.com/106035353/189008455-99f72ecc-c4ad-4e4d-8bf6-b2a9b5b69ca7.png)
 
-Escribimos el siguiente comando para crear una mv:
+Escribimos el siguiente comando para crear una mv, respetando los guiones, espacios, comas y comillas:
 
 New-AzVm `
 -ResourceGroupName “myRGPS” `
@@ -67,7 +67,7 @@ New-AzVm `
 
 ![image](https://user-images.githubusercontent.com/106035353/189009501-ffa84c1d-39ac-48d2-8309-8c1515b9787e.png)
 
-Ingresamos el usuario y el password (al ingresar el password no notarás los caracteres en pantalla pero sí se estará tomando en cuenta):
+Ingresamos el usuario y el password (al ingresar el password no notarás los caracteres en pantalla pero sí se estará tomando en cuenta) es importante que recuerdes estos datos:
 
 ![image](https://user-images.githubusercontent.com/106035353/189009650-22bacc19-eb4f-44d5-ba65-a1f2928c42b6.png)
 
@@ -78,6 +78,34 @@ Verificamos en el Grupo de Recursos lo que se está creando:
 Abrimos haciendo clic en el recurso máquina virtual (myVMPS)
 
 ![image](https://user-images.githubusercontent.com/106035353/189009925-5fd133bc-719d-4f35-ac9f-a6e575d4578e.png)
+
+Damos clic en Conectar y elegimos RDP, una vez descargado abrimos el archivo:
+
+![image](https://user-images.githubusercontent.com/106035353/189010552-5cf6c6ab-63e1-48a2-b679-75864ebff7d9.png)
+
+Damos clic en Conectar:
+
+![image](https://user-images.githubusercontent.com/106035353/189010614-6248f643-a264-4ae7-927d-da87b4102f81.png)
+
+Hacemos clic en Más opciones y elegimos Usar otra cuenta, donde procederemos a ingresar el usuario y password anteriormente guardado:
+
+![image](https://user-images.githubusercontent.com/106035353/189010986-da54a91f-2f0a-49d5-8b2f-223e4295a882.png)
+
+Damos clic en Sí:
+
+![image](https://user-images.githubusercontent.com/106035353/189011059-e357bbc4-839b-4121-af6b-cd9ef8e8c518.png)
+
+
+Se nos abrirá la mv para hacer uso de ella:
+
+![image](https://user-images.githubusercontent.com/106035353/189011346-7d98cda2-2690-4ec7-a151-03b127eefc5c.png)
+
+
+
+
+
+
+
 
 
 
